@@ -17,12 +17,7 @@ jobs:
       matrix:
         game:
           - altv
-          - arma3
-          - dayz
-          - mohaa
-          - samp
           - source
-          - valheim
           
     steps:
       - uses: actions/checkout@v3
