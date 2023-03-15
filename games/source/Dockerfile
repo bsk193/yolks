@@ -49,6 +49,7 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
         dotnet-runtime-7.0 \
+		aspnetcore-runtime-7.0 \
     \
     # Cleanup
     && rm -rf /var/lib/apt/lists/*
